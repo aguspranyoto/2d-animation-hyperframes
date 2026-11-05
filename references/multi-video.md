@@ -101,6 +101,7 @@ alignment, duration bookkeeping), not the direction.
 
 - [ ] `inputs/<slug>/` contains `vo.mp3` and `script.txt` with `[emotion]` tags
 - [ ] `python tools/new-video.py <slug>` prints a block for every tagged block
+- [ ] no block text still contains raw `[...]` from a tag that failed to parse
 - [ ] `videos/<slug>/assets/audio/video.json` duration matches the MP3
 - [ ] every block has a scene host; hosts tile `0 → duration` with no gaps or overlaps
 - [ ] `npm run check` reports 0 errors

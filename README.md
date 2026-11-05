@@ -22,7 +22,7 @@ assets/audio/
 └── script.txt
 ```
 
-`script.txt` contains the narration with emotion tags. A line holding only a tag such as `[excited]` or `[ curious ]` applies to the narration block that follows, until the next tag:
+`script.txt` contains the narration with emotion tags. A line holding only a tag — one or more words, such as `[excited]`, `[ curious ]`, `[dramatic pause]`, or `[voice breaking]` — applies to the narration block that follows, until the next tag:
 
 ```text
 [excited]
